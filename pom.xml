@@ -16,6 +16,7 @@
 		<scmRepositoryUri>https://github.com/amoutaim/hello-nexus.git</scmRepositoryUri>
 		<scm-plugin-version>1.9</scm-plugin-version>
 		<scm-git-plugin-version>1.8.1</scm-git-plugin-version>
+		<project.scm.id>github</project.scm.id>
 		<compiler-plugin-version>3.5</compiler-plugin-version>
 	</properties>
 
