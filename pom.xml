@@ -57,23 +57,23 @@
 					<goals>javadoc:jar deploy</goals>
 					<additionalparam>-Xdoclint:none</additionalparam>
 				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.scm</groupId>
-						<artifactId>maven-scm-provider-gitexe</artifactId>
-						<version>${scm-git-plugin-version}</version>
-					</dependency>
-					<dependency>
-						<groupId>org.apache.maven.scm</groupId>
-						<artifactId>maven-scm-api</artifactId>
-						<version>${scm-plugin-version}</version>
-					</dependency>
-					<dependency>
-						<groupId>org.sonatype.plexus</groupId>
-						<artifactId>plexus-cipher</artifactId>
-						<version>1.4</version>
-					</dependency>
-				</dependencies>
+<!-- 				<dependencies> -->
+<!-- 					<dependency> -->
+<!-- 						<groupId>org.apache.maven.scm</groupId> -->
+<!-- 						<artifactId>maven-scm-provider-gitexe</artifactId> -->
+<!-- 						<version>${scm-git-plugin-version}</version> -->
+<!-- 					</dependency> -->
+<!-- 					<dependency> -->
+<!-- 						<groupId>org.apache.maven.scm</groupId> -->
+<!-- 						<artifactId>maven-scm-api</artifactId> -->
+<!-- 						<version>${scm-plugin-version}</version> -->
+<!-- 					</dependency> -->
+<!-- 					<dependency> -->
+<!-- 						<groupId>org.sonatype.plexus</groupId> -->
+<!-- 						<artifactId>plexus-cipher</artifactId> -->
+<!-- 						<version>1.4</version> -->
+<!-- 					</dependency> -->
+<!-- 				</dependencies> -->
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
