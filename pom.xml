@@ -16,8 +16,8 @@
 		<maven-release-plugin-version>2.5.3</maven-release-plugin-version>
 		<scmRepositoryUri>https://github.com/amoutaim/hello-nexus.git</scmRepositoryUri>
 		<project.scm.id>github</project.scm.id>
-		<scm-plugin-version>1.9</scm-plugin-version>
-		<scm-git-plugin-version>1.8.1</scm-git-plugin-version>
+		<scm-plugin-version>1.9.5</scm-plugin-version>
+		<scm-git-plugin-version>1.9.5</scm-git-plugin-version>
 		<compiler-plugin-version>3.5</compiler-plugin-version>
 	</properties>
 
@@ -57,23 +57,23 @@
 					<goals>javadoc:jar deploy</goals>
 					<additionalparam>-Xdoclint:none</additionalparam>
 				</configuration>
-<!-- 				<dependencies> -->
-<!-- 					<dependency> -->
-<!-- 						<groupId>org.apache.maven.scm</groupId> -->
-<!-- 						<artifactId>maven-scm-provider-gitexe</artifactId> -->
-<!-- 						<version>${scm-git-plugin-version}</version> -->
-<!-- 					</dependency> -->
-<!-- 					<dependency> -->
-<!-- 						<groupId>org.apache.maven.scm</groupId> -->
-<!-- 						<artifactId>maven-scm-api</artifactId> -->
-<!-- 						<version>${scm-plugin-version}</version> -->
-<!-- 					</dependency> -->
-<!-- 					<dependency> -->
-<!-- 						<groupId>org.sonatype.plexus</groupId> -->
-<!-- 						<artifactId>plexus-cipher</artifactId> -->
-<!-- 						<version>1.4</version> -->
-<!-- 					</dependency> -->
-<!-- 				</dependencies> -->
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.maven.scm</groupId>
+						<artifactId>maven-scm-provider-gitexe</artifactId>
+						<version>${scm-git-plugin-version}</version>
+					</dependency>
+					<dependency>
+						<groupId>org.apache.maven.scm</groupId>
+						<artifactId>maven-scm-api</artifactId>
+						<version>${scm-plugin-version}</version>
+					</dependency>
+					<dependency>
+						<groupId>org.sonatype.plexus</groupId>
+						<artifactId>plexus-cipher</artifactId>
+						<version>1.4</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
