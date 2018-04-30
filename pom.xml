@@ -4,7 +4,7 @@
 
 	<groupId>com.mido.nexus</groupId>
 	<artifactId>hello-nexus</artifactId>
-	<version>1.0.5-SNAPSHOT</version>
+	<version>1.0.5</version>
 	<packaging>pom</packaging>
 	<name>Parent des projets hello nexus</name>
 	<description>Parent de tous les projets hello nexus</description>
@@ -24,7 +24,7 @@
 		<url>${scmRepositoryUri}</url>
 		<connection>scm:git:${scmRepositoryUri}</connection>
 		<developerConnection>scm:git:${scmRepositoryUri}</developerConnection>
-		<tag>hello-nexus-1.0.4</tag>
+		<tag>hello-nexus-1.0.5</tag>
 	</scm>
 
 	<build>
