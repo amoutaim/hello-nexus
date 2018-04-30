@@ -4,7 +4,7 @@
 
 	<groupId>com.mido.nexus</groupId>
 	<artifactId>hello-nexus</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Parent des projets hello nexus</name>
 	<description>Parent de tous les projets hello nexus</description>
